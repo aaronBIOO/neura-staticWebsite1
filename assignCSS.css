@@ -1,0 +1,70 @@
+/* Reset default browser styles and set up box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+} 
+
+/* General Style for the body */
+body {
+    font-family: 'Poppins', sans-serif;
+    color:#333;
+    background-color: #f8f9fa;
+    line-height: 1.6;
+}
+
+/* Header and Navigation Styles */
+header {
+    background-color: rgb(14, 141, 245);
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds shadow effect to header */
+    position: fixed; /* fix header to the top of viewport eve */
+    top: 0;
+    z-index: 1000; /* Keeps header on top of other elements */
+}
+
+nav {
+    display:flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* vertically center items */
+    padding: 1rem 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    margin-right: 20px; /* Add margin to space out items */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:#f8f9fa;
+    letter-spacing: 0.1rem;
+    
+}
+
+/* Add top padding to main to prevent overlap with fixed header */
+main {
+    margin-top: 70px;
+    padding-top: 2rem 5%; /* Adjust this value based on your header's height */
+    
+}
+
+#experiences {
+    border-radius: 10px; /* Adjust the radius as needed */
+    border: 1px solid #ccc; /* Add a border to make the radius visible */
+    background-color: #e0e0e0; /* Optional: Add a background color */
+    width: 80%;
+    align-content: center;
+}
