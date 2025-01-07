@@ -31,14 +31,23 @@ nav {
     margin: 0 auto;
 }
 
-/* Style <ul> to use Flexbox */
-nav ul {
-    display: flex; /* Makes <ul> items horizontal */
-    list-style: none; /* Removes bullets */
-    padding: 0; /* Removes default padding */
-    margin: 0; /* Removes default margin */
+/* General styles for <nav> */
+nav {
+    display: flex;
+    justify-content: flex-end; /* Pushes content to the right */
+    align-items: flex-start;  /* Aligns items to the top */
+    padding: 1rem 5%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
+/* Style <ul> to use Flexbox */
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
 /* Space between <li> items */
 nav ul li {
@@ -48,6 +57,32 @@ nav ul li {
 /* Optional: Style the links */
 nav ul li a {
     text-decoration: none;
-    color: #333; /* Default text color */
+    color: #333;
     font-size: 1rem;
 }
+
+
+
+
+
+/* Style <ul> to use Flexbox 
+nav ul {
+    display: flex; /* Makes <ul> items horizontal */
+   /* list-style: none; /* Removes bullets */
+   /* padding: 0; /* Removes default padding */
+   /* margin: 0; /* Removes default margin } */
+
+
+
+/* Space between <li> items 
+nav ul li {
+    margin: 0 1rem;
+}
+
+/* Optional: Style the links 
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Default text color */
+   /* font-size: 1rem; 8?
+
+
