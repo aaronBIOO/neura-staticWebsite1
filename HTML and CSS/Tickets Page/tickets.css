@@ -3,3 +3,22 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Style for body */
+body {
+    font-family: "Poppins" , sans-serif;
+    color: #333;
+    background-color: #f8f8f8;
+    line-height: 1.6;
+}
+
+/* Header and Navigation styles */
+header {
+    background-color:  rgb(14, 141, 245);
+    width: 100%;
+    box-shadow: 0  2px 4px rgba(0, 0, 0, 0.1); 
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
