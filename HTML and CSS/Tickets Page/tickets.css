@@ -21,4 +21,20 @@ header {
     top: 0;
     z-index: 1000;
 }
+/* General styles for <nav> */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+/* Style <ul> to use Flexbox */
+nav ul {
+    display: flex; /* Makes <ul> items horizontal */
+    list-style: none; /* Removes bullets */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
