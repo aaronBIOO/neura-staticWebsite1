@@ -10,3 +10,19 @@
     height: 80vh;
     background-color:#C2EFD4;
 }
+
+/* hero: logo */ 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.hero__top {
+    
+
+}
+
+.nav__menu ul {
+    display: flex;
+    align-items: center;
+}
