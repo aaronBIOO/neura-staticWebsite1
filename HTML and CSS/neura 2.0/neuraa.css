@@ -41,5 +41,15 @@
     text-decoration: none;
     color: #094215;
     font-size: 0.9rem;
+    font-family: "Poppins", sans-serif;
 }
 
+/* hero: Login button */
+.login__button {
+    border: 1.5px solid #094215;
+    background-color: #C2EFD4;
+    padding: 0.4rem 1.2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color:#094215
+}
