@@ -9,20 +9,34 @@
 .hero {
     height: 80vh;
     background-color:#C2EFD4;
+    font-family: 2rem;
 }
 
 /* hero: logo */ 
 .logo {
     display: flex;
     align-items: center;
+    font-size: 2rem;
+    font-family: 'Limelight', Roboto, sans-serif;
+    font-weight: 600;
+    color: #094215;
 }
 
 .hero__top {
-    
-
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4rem;
 }
 
+/* hero: navigation menu */
 .nav__menu ul {
     display: flex;
     align-items: center;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.nav__menu a {
+    text-decoration: none;
+    color: #094215
 }
