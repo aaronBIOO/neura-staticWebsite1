@@ -48,7 +48,8 @@
 .login__button {
     border: 1.5px solid #094215;
     background-color: #C2EFD4;
-    padding: 0.4rem 1.2rem;
+    font-family: "Poppins", sans-serif;
+    padding: 0.4rem 1.1rem;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     color:#094215
