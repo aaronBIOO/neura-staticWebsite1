@@ -60,3 +60,29 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
+/* Hero: Headline */
+.hero__headline p {
+    padding: 2rem 7rem;
+    padding-bottom: 0.5rem;
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Hero: Headline Description */
+.hero__description p {
+    padding: 0.1rem 7rem;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Hero: Button */
+.hero__button__container {
+    padding: 1rem 7rem;
+}
+
+.hero__button {
+    padding: 0.8rem 1.2rem;
+    border: none;
+}
