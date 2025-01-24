@@ -54,3 +54,9 @@
     font-weight: 400;
     color:#094215
 }
+
+/* Hero: Bottom */
+.hero__bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
