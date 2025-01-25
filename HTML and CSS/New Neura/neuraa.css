@@ -7,7 +7,7 @@
 
 /* ---- Hero section ---- */
 .hero {
-    height: 80vh;
+    max-height: 80vh;
     background-color:#C2EFD4;
     font-family: 2rem;
 }
@@ -72,7 +72,7 @@
 
 /* Hero Bottom: Headline */
 .hero__headline p {
-    padding: 2rem 7rem;
+    padding: 2rem 0.5rem 2rem 14rem;
     padding-bottom: 0.5rem;
     font-size: 3.5rem;
     line-height: 4.5rem;
@@ -82,17 +82,31 @@
 
 /* Hero Bottom: Headline Description */
 .hero__description p {
-    padding: 0.1rem 7rem;
+    padding: 0.1rem 0.5rem 0.1rem 14rem;
     font-size: 1.2rem;
     font-family: "Poppins", sans-serif;
+    color: #267D49
 }
 
 /* Hero Bottom: Button */
 .hero__button__container {
-    padding: 1rem 7rem;
+    padding: 1rem 0.5rem 1rem 14rem;
 }
 
 .hero__button {
     padding: 0.8rem 1.2rem;
     border: none;
+    background-color: #094215;
+    color:white;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Hero Bottom: Hero Image */
+.hero__image__container {
+    height: 80%;
+    background-color: #6BC785;
+    margin: 2rem 5rem 2rem 2rem;
+    max-width: 60%;
+    border-radius: 50px 10px;
 }
