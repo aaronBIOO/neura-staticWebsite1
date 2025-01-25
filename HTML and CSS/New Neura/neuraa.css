@@ -27,7 +27,7 @@
     align-items: center;
     font-size: 1.5rem;
     font-family: 'Limelight', Roboto, sans-serif;
-    font-weight: 600;
+    font-weight: 800;
     color: #094215;
     padding-left: 3.2rem;
 }
@@ -74,8 +74,8 @@
 .hero__headline p {
     padding: 2rem 0.5rem 2rem 14rem;
     padding-bottom: 0.5rem;
-    font-size: 3.5rem;
-    line-height: 4.5rem;
+    font-size: 3rem;
+    line-height: 3.5rem;
     font-family: "Poppins", sans-serif;
     color:#094215
 }
@@ -104,9 +104,17 @@
 
 /* Hero Bottom: Hero Image */
 .hero__image__container {
-    height: 80%;
+    display: flex;
+    height: 400px;
     background-color: #6BC785;
     margin: 2rem 5rem 2rem 2rem;
     max-width: 60%;
     border-radius: 50px 10px;
+}
+
+.hero__image {
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: auto;
 }
