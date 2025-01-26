@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 /* ---- Hero section ---- */
 .hero {
     max-height: 95vh;
@@ -21,6 +22,7 @@
     align-items: center;
 }
 
+
 /* Hero Top: logo */ 
 .logo {
     display: flex;
@@ -31,6 +33,7 @@
     color: #094215;
     padding-left: 5rem;
 }
+
 
 /* Hero Top: Navigation menu */
 .nav__menu ul {
@@ -46,6 +49,7 @@
     font-size: 0.9rem;
     font-family: "Poppins", sans-serif;
 }
+
 
 /* Hero Top: Login button */
 .login__button {
@@ -70,6 +74,7 @@
     padding-top: 2rem;
 }
 
+
 /* Hero Bottom: Headline */
 .hero__headline p {
     margin-top: 2rem;
@@ -81,6 +86,7 @@
     color:#094215
 }
 
+
 /* Hero Bottom: Headline Description */
 .hero__description p {
     padding: 0.1rem 0.5rem 0.1rem 14rem;
@@ -88,6 +94,7 @@
     font-family: "Poppins", sans-serif;
     color: #267D49
 }
+
 
 /* Hero Bottom: Button */
 .hero__button__container {
@@ -103,6 +110,7 @@
     font-family: "Poppins", sans-serif;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 
 /* Hero Bottom: Hero Image */
 .hero__image__container {
@@ -122,19 +130,32 @@
     margin: auto;
 }
 
+
 /* ----  Main Content One ---- */
+/* Best Selling Headline and Description */
 .best__selling__headline {
     display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.best__selling__description {
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 .best__selling__headline p {
     margin-top: 5rem;
-    justify-content: center;
-    align-items: center;
     font-size: 2rem;
 }
 
+
+/* Best Selling Items */
 .best__selling__items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin: 2rem 10rem;
 }
+
+
