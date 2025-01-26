@@ -7,7 +7,7 @@
 
 /* ---- Hero section ---- */
 .hero {
-    max-height: 80vh;
+    max-height: 95vh;
     background-color:#C2EFD4;
     font-family: 2rem;
 }
@@ -53,14 +53,14 @@
     border: 1.5px solid #094215;
     background-color: #C2EFD4;
     font-family: "Poppins", sans-serif;
-    padding: 0.4rem 1.1rem;
+    padding: 0.4rem 1.4rem;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     color:#094215
 }
 
 .login__container {
-    padding-right: 3.2rem;
+    padding-right: 1rem;
 }
 
 
@@ -68,6 +68,7 @@
 .hero__bottom {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding-top: 2rem;
 }
 
 /* Hero Bottom: Headline */
@@ -84,7 +85,7 @@
 /* Hero Bottom: Headline Description */
 .hero__description p {
     padding: 0.1rem 0.5rem 0.1rem 14rem;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     font-family: "Poppins", sans-serif;
     color: #267D49
 }
@@ -92,6 +93,7 @@
 /* Hero Bottom: Button */
 .hero__button__container {
     padding: 1rem 0.5rem 1rem 14rem;
+    margin-bottom: 8rem;
 }
 
 .hero__button {
@@ -106,7 +108,7 @@
 /* Hero Bottom: Hero Image */
 .hero__image__container {
     display: flex;
-    height: 400px;
+    height: 450px;
     background-color: #6BC785;
     margin: 1rem 14rem 2rem 2rem;
     max-width: 60%;
@@ -116,7 +118,7 @@
 .hero__image {
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 450px;
     width: auto;
     margin: auto;
 }
