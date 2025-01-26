@@ -122,5 +122,19 @@
     margin: auto;
 }
 
+/* ----  Main Content One ---- */
+.best__selling__headline {
+    display: flex;
+}
 
+.best__selling__headline p {
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
 
+.best__selling__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
