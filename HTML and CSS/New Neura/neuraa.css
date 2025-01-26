@@ -29,9 +29,8 @@
     font-family: 'Limelight', Roboto, sans-serif;
     font-weight: 800;
     color: #094215;
-    padding-left: 3.2rem;
+    padding-left: 5rem;
 }
-
 
 /* Hero Top: Navigation menu */
 .nav__menu ul {
@@ -112,7 +111,7 @@
     background-color: #6BC785;
     margin: 1rem 14rem 2rem 2rem;
     max-width: 60%;
-    border-radius: 50px 10px;
+    border-radius: 80px 30px;
 }
 
 .hero__image {
