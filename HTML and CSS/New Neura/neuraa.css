@@ -163,3 +163,20 @@
     margin: 2rem 10rem;
 }
 
+.item__one {
+    background-color: #93B9A2;
+    margin: 1rem 2rem;
+    height: 300px;
+}
+
+.item__two {
+    background-color: #CADCD0;
+    margin: 1rem 2rem;
+    height: 300px;
+}
+
+.item__three {
+    background-color: #93B9A2;
+    margin: 1rem 2rem;
+    height: 300px;
+}
