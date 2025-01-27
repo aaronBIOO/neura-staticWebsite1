@@ -155,28 +155,34 @@
     font-family: "Poppins", sans-serif;
 }
 
+.best__selling__description p {
+    padding-top: 1rem;
+    font-weight: 500;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.03rem;
+}
 
 /* Best Selling Items */
 .best__selling__items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 2rem 10rem;
+    margin: 2rem 8rem;
 }
 
 .item__one {
     background-color: #93B9A2;
-    margin: 1rem 2rem;
-    height: 300px;
+    margin: 1rem 0.8rem;
+    height: 400px;
 }
 
 .item__two {
     background-color: #CADCD0;
-    margin: 1rem 2rem;
-    height: 300px;
+    margin: 1rem 0.8rem;
+    height: 400px;
 }
 
 .item__three {
     background-color: #93B9A2;
-    margin: 1rem 2rem;
-    height: 300px;
+    margin: 1rem 0.8rem;
+    height: 400px;
 }
