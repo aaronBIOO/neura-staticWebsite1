@@ -223,3 +223,11 @@
 .description__price {
     word-spacing: 1rem;
 }
+
+.star__icon {
+    color: orange
+}
+
+.ratings {
+    word-spacing: 0.3rem;
+}
