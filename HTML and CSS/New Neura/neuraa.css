@@ -157,9 +157,7 @@
 
 .best__selling__description p {
     padding-top: 1rem;
-    font-weight: 500;
-    word-spacing: 0.1rem;
-    letter-spacing: 0.03rem;
+    font-size: 1.2rem;
 }
 
 /* Best Selling Items */
@@ -212,3 +210,12 @@
     height: 400px;
 }
 
+/* Best Selling Items: Image descriptions */
+.description__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    color: #094215;
+}
