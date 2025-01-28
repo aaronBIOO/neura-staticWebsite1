@@ -179,30 +179,21 @@
 .image__one {
     justify-content: center;
     align-items: center;
+    padding-left: 1rem;
     height: 400px;
 }
 
 .image__two {
-    
-}
-
-/*
-.item__one {
-    background-color: #93B9A2;
-    margin: 1rem 0.8rem;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
     height: 400px;
 }
 
-
-.item__two {
-    background-color: #CADCD0;
-    margin: 1rem 0.8rem;
+.image__three {
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
     height: 400px;
 }
 
-.item__three {
-    background-color: #93B9A2;
-    margin: 1rem 0.8rem;
-    height: 400px;
-}
- */
