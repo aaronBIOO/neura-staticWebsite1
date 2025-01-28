@@ -169,6 +169,8 @@
     margin: 2rem 8rem;
 }
 
+
+/* Best Selling Items: Image containers */
 .image__container {
     display: flex;
     background-color: #C2EFD4;
@@ -176,6 +178,19 @@
     height: 400px;
 }
 
+.container__one {
+    background-color: #93B9A2;
+}
+
+.container__two {
+    background-color: #CADCD0;
+}
+
+.container__one {
+    background-color: #93B9A2;
+}
+
+/* Best Selling Items: Images */
 .image__one {
     justify-content: center;
     align-items: center;
