@@ -46,7 +46,7 @@
 .nav__menu a {
     text-decoration: none;
     color: #094215;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-family: "Poppins", sans-serif;
 }
 
@@ -156,7 +156,7 @@
 }
 
 .best__selling__description p {
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     font-size: 1.2rem;
 }
 
