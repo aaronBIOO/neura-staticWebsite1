@@ -169,11 +169,30 @@
     margin: 2rem 8rem;
 }
 
+.image__container {
+    display: flex;
+    background-color: #C2EFD4;
+    margin: 1rem 0.8rem;
+    height: 400px;
+}
+
+.image__one {
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.image__two {
+    
+}
+
+/*
 .item__one {
     background-color: #93B9A2;
     margin: 1rem 0.8rem;
     height: 400px;
 }
+
 
 .item__two {
     background-color: #CADCD0;
@@ -186,3 +205,4 @@
     margin: 1rem 0.8rem;
     height: 400px;
 }
+ */
