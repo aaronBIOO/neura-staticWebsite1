@@ -224,10 +224,33 @@
     word-spacing: 1rem;
 }
 
+/* Best Selling Items: Ratings icon */
 .star__icon {
     color: orange
 }
 
 .ratings {
     word-spacing: 0.3rem;
+}
+
+/* Best Selling Items: 'See all button' */
+.see__all__button__container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.see__all__button {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    margin-top: 2rem;
+    padding: 0.3rem 1.3rem;
+    background-color: white;
+    border: 1px solid #094215;
+    color:#094215;
+}
+
+.arrow__icon {
+    padding-left: 0.5rem;
+    color: #094215;
 }
