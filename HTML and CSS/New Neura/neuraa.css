@@ -219,3 +219,7 @@
     font-family: "Poppins", sans-serif;
     color: #094215;
 }
+
+.description__price {
+    word-spacing: 1rem;
+}
