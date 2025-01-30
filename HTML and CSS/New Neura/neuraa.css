@@ -131,7 +131,7 @@
 }
 
 
-/* ----  Main Content One ---- */
+/* ----  Main Content One | Best Selling ---- */
 /* Best Selling Headline and Description */
 .best__selling__headline {
     display: flex;
@@ -151,7 +151,8 @@
 
 .best__selling__headline p {
     margin-top: 5rem;
-    font-size: 2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
     font-family: "Poppins", sans-serif;
 }
 
@@ -254,3 +255,17 @@
     padding-left: 0.5rem;
     color: #094215;
 }
+
+
+/* ---- Main Content Two | our products ---- */
+.our__products__headline {
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:#094215;
+    font-family: "Poppins", sans-serif;
+}
+    
