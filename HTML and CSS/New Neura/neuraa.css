@@ -262,6 +262,10 @@
 
 
 /* ---- Main Content Two | our products ---- */
+.products__headline__container {
+    margin-top: 10rem;
+}
+
 .our__products__headline {
     display:flex;
     width: 100%;
@@ -296,6 +300,8 @@
 }
 
 .our__products__navigation a {
+    font-size: 1rem;
+    font-weight: 500;
     text-decoration: none;
     color: #094215;
 }
@@ -305,5 +311,11 @@
 .our__products__items__container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    column-gap: 1rem;
     margin: 2rem 8rem;
+}
+
+.products__items {
+    background-color: #C2EFD4;
+    height: 400px;
 }
