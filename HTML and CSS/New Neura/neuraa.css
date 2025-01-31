@@ -317,5 +317,25 @@
 
 .products__items {
     background-color: #C2EFD4;
-    height: 400px;
+    height: 300px;
+}
+
+.our__products__image__1 {
+    width: 100%;
+    height: 300px;
+}
+
+.our__products__image__2 {
+    width: 120%;
+    height: 354px;
+}
+
+.our__products__image__3 {
+    width: 100%;
+    height: 300px;
+}
+
+.our__products__image__4 {
+    width: 100%;
+    height: 300px;
 }
