@@ -132,7 +132,6 @@
 
 
 /* ----  Main Content One | Best Selling ---- */
-/* Best Selling Headline and Description */
 .best__selling__headline {
     display: flex;
     width: 100%;
@@ -160,6 +159,7 @@
     padding-top: 0.5rem;
     font-size: 1.2rem;
 }
+
 
 /* Best Selling Items */
 .best__selling__items {
@@ -189,6 +189,7 @@
     background-color: #93B9A2;
 }
 
+
 /* Best Selling Items: Images */
 .image__one {
     justify-content: center;
@@ -211,6 +212,7 @@
     height: 400px;
 }
 
+
 /* Best Selling Items: Image descriptions */
 .description__container {
     display: flex;
@@ -225,6 +227,7 @@
     word-spacing: 1rem;
 }
 
+
 /* Best Selling Items: Ratings icon */
 .star__icon {
     color: orange
@@ -233,6 +236,7 @@
 .ratings {
     word-spacing: 0.3rem;
 }
+
 
 /* Best Selling Items: 'See all button' */
 .see__all__button__container {
@@ -269,4 +273,37 @@
     font-family: "Poppins", sans-serif;
     margin: 2rem 0rem 2rem 0rem;
 }
-    
+
+
+/* Our Products: Navigation */
+.our__products__navigation__container {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.our__products__navigation {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.our__products__navigation li {
+    list-style-type: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    color: #094215;
+}
+
+.our__products__navigation a {
+    text-decoration: none;
+    color: #094215;
+}
+
+
+/* Our Products: Product Items */
+.our__products__items__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 2rem 8rem;
+}
