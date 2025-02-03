@@ -248,7 +248,7 @@
 .see__all__button {
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding: 0.3rem 1.3rem;
     background-color: white;
     border: 1px solid #094215;
@@ -263,7 +263,7 @@
 
 /* ---- Main Content Two | our products ---- */
 .products__headline__container {
-    margin-top: 6rem;
+    margin-top: 7rem;
 }
 
 .our__products__headline {
