@@ -386,3 +386,10 @@
     padding-top: 1rem;
 }
 
+.products__price {
+    word-spacing: 1rem;
+}
+
+.ratings__2 {
+    word-spacing: 0.3rem;
+}
