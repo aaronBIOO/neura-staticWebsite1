@@ -308,7 +308,7 @@
 
 
 /* Our Products: Product Items */
-.our__products__items__container {
+.our__products__items__container__one {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 1rem;
