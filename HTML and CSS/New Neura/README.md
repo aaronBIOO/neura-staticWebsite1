@@ -5,3 +5,5 @@ This project was built to test my HTML and  CSS skills.
 ## Technology used
 - HTML
 - CSS
+
+## Features
