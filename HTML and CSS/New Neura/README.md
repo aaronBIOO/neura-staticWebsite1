@@ -7,4 +7,5 @@ This project was built to test my HTML and  CSS skills.
 - CSS
 
 ## Features
-- Home
+- cart for shopping
+- Ability to change clothes colors
