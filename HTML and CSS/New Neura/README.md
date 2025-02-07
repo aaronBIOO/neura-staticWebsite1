@@ -9,3 +9,4 @@ This project was built to test my HTML and  CSS skills.
 ## Features
 - cart for shopping
 - Ability to change clothes colors
+- Learn more about cloth types
