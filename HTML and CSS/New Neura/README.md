@@ -1,13 +1,22 @@
-# Fashion and Clothing website
-This is a fashion and clothing website. It contains different styles and fashion of clothes for women. This project was built to test my HTML and  CSS skills.
+# Neura Fashion Website
 
-## Technology used
-- HTML
-- CSS
+A modern e-commerce website for women's fashion and clothing, built with HTML and CSS. The site features a clean, responsive design focused on showcasing clothing products in an elegant way.
 
 ## Features
-- cart for shopping
-- Ability to change clothes colors
-- Learn more about cloth types
-- Ability to select multiple
+
+- Product categorization (Sale, Hot items, New arrivals, Accessories)
+- Product image galleries with hover effects
+- Product descriptions and pricing information 
+- Star rating system for products
+- Shopping cart functionality
+- Color selection options for products
+- Responsive navigation menu
+- Modern grid-based product layouts
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- Font Awesome Icons
+- Google Fonts (Poppins, Limelight, Roboto)
 
