@@ -10,3 +10,5 @@ This project was built to test my HTML and  CSS skills.
 - cart for shopping
 - Ability to change clothes colors
 - Learn more about cloth types
+- Ability to select multiple
+
