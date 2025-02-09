@@ -25,3 +25,12 @@ A modern e-commerce website for women's fashion and clothing, built with HTML an
 1. Clone the repository
 2. Open `neuraa.html` in your web browser
 3. No additional dependencies or build steps required
+
+## Future Enhancements
+
+- Add JavaScript functionality for interactive features
+- Implement shopping cart logic
+- Add product filtering and search
+- Include product detail pages
+- Add checkout process
+- Make fully responsive for all devices
