@@ -20,3 +20,8 @@ A modern e-commerce website for women's fashion and clothing, built with HTML an
 - Font Awesome Icons
 - Google Fonts (Poppins, Limelight, Roboto)
 
+## Setup and Installation
+
+1. Clone the repository
+2. Open `neuraa.html` in your web browser
+3. No additional dependencies or build steps required
