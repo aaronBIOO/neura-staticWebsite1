@@ -393,3 +393,17 @@
 .our__products__image__container__8 {
     background-color: #DED9D5;
 }
+
+
+/** Exclusiver Offer section **/
+.exclusive__offer__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 15rem 8rem;
+    background-color: #C2EFD4;
+}
+
+.exclusive__offer__image {
+    height: 400px;
+    width: auto;
+}

@@ -34,3 +34,7 @@ A modern e-commerce website for women's fashion and clothing, built with HTML an
 - Include product detail pages
 - Add checkout process
 - Make fully responsive for all devices
+
+
+
+
