@@ -313,7 +313,7 @@
     grid-template-columns: repeat(4, 1fr);
     column-gap: 1rem;
     margin: 2rem 8rem;
-    margin-bottom: 7rem;
+    margin-bottom: 10rem;
 }
 
 .products__items {
@@ -401,6 +401,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 0.5;
     margin: 15rem 8rem;
+    margin-bottom: 12rem;
     padding-right: 4rem;
     background-color: #C2EFD4;
 }
@@ -473,3 +474,74 @@
     width: 200px;
 }
 
+
+/* --- Designer Clothes For You --- */
+.designer__clothes__description__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.designer__clothes__headline {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #094215;
+    font-family: "Poppins", sans-serif;
+}
+
+.designer__clothes__message {
+    padding-top: 0.8rem;
+    font-size: 1.2rem;
+    color: #094215;
+    font-family: "Poppins", sans-serif;
+}
+
+.designer__clothes__items__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 0rem 8rem;
+    margin-bottom: 7rem;
+}
+
+.DesignerClothes {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.ForYouImage {
+    height: 400px;
+    width: auto;
+}
+
+.designer__clothes__image1 {
+    background-color: #CADCD0;
+}
+
+.designer__clothes__image2 {
+    background-color: #93B9A2;
+}
+
+
+.designer__clothes__image3 {
+    background-color: #CADCD0;
+}
+
+.imageDescription {
+    font-family: "Poppins", sans-serif;
+    color: #626964;
+    text-align: center;
+}
+
+.imageDescription__head {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #626964;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
