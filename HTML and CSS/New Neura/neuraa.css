@@ -399,11 +399,77 @@
 .exclusive__offer__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 0.5;
     margin: 15rem 8rem;
+    padding-right: 4rem;
     background-color: #C2EFD4;
 }
 
-.exclusive__offer__image {
-    height: 400px;
-    width: auto;
+.exclusive__offer__details__container {
+    margin: 4rem 4rem;
+    
 }
+
+.exclusive__offer__image {
+    height: 450px;
+    width: auto;
+    padding-left: 5rem;
+}
+
+.exclusive__offer__headline {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #094215;
+    font-family: "Poppins", sans-serif;
+}
+
+.exclusive__offer__description {
+    padding-top: 0.8rem;
+    font-size: 1.2rem;
+    color: #094215;
+    font-family: "Poppins", sans-serif;
+}
+
+.exclusive__offer__countdown {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.countDown {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    color: #094215;
+    background-color: white;
+    height: 70px;
+    width: 100px;
+    padding: 0.1rem;
+    border-radius: 5px;
+}
+
+.bold {
+    font-weight: 600;
+    font-size:large;
+}
+
+.exclusive__offer__button__container {
+    display: flex;
+    justify-content: left;
+    margin-top: 3rem;
+}
+
+.exclusive__offer__button {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    padding: 0.3rem 1.3rem;
+    background-color: #094215;
+    color:white;
+    border-style: none;
+    height: 60px;
+    width: 200px;
+}
+
